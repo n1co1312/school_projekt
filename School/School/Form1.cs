@@ -60,6 +60,10 @@ namespace School
                         form2.WindowState = FormWindowState.Maximized;
 
                     }
+                    else
+                    {
+                        MessageBox.Show("Passwort falsch", "Passwort");
+                    }
                 }
                     
             
