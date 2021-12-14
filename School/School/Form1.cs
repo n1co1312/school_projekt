@@ -44,20 +44,27 @@ namespace School
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            try
             {
-                string path = "psw.txt";
-                string pass = textBox1.Text;
-                string psw = File.ReadAllText(path);
-                if (pass == psw)
+                if (e.KeyCode == Keys.Enter)
                 {
-                    Form2 form2 = new Form2();
-                    Form1 form1 = new Form1();
-                    form2.Show();
-                    form1.WindowState = FormWindowState.Minimized;
-                    form2.WindowState = FormWindowState.Maximized;
-                    
+                    string path = "psw.txt";
+                    string pass = textBox1.Text;
+                    string psw = File.ReadAllText(path);
+                    if (pass == psw)
+                    {
+                        Form2 form2 = new Form2();
+                        Form1 form1 = new Form1();
+                        form2.Show();
+                        form1.WindowState = FormWindowState.Minimized;
+                        form2.WindowState = FormWindowState.Maximized;
+
+                    }
                 }
+            }
+            catch (System.IO.FileNotFoundException)
+            {
+                MessageBox.Show("Bitte erstelle zuerst ein Passwort!", "Fehler!");
             }
         }
     }
