@@ -1,0 +1,11 @@
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\bin\Debug\School.exe.config
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\bin\Debug\School.exe
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\bin\Debug\School.pdb
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Form1.resources
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Properties.Resources.resources
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.csproj.GenerateResource.cache
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.exe
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.pdb
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Form2.resources
