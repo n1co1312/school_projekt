@@ -44,9 +44,9 @@ namespace School
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            try
+            if (e.KeyCode == Keys.Enter)
             {
-                if (e.KeyCode == Keys.Enter)
+                try
                 {
                     string path = "psw.txt";
                     string pass = textBox1.Text;
@@ -61,10 +61,12 @@ namespace School
 
                     }
                 }
-            }
-            catch (System.IO.FileNotFoundException)
-            {
-                MessageBox.Show("Bitte erstelle zuerst ein Passwort!", "Fehler!");
+                    
+            
+                catch (System.IO.FileNotFoundException)
+                {
+                    MessageBox.Show("Bitte erstelle zuerst ein Passwort!", "Fehler!");
+                }
             }
         }
     }
