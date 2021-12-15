@@ -36,3 +36,5 @@ C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Che
 C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.settings.resources
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Checkbox.resources
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.settings.resources
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Checkbox.resources
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.settings.resources
