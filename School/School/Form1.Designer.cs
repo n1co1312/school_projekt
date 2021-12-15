@@ -84,7 +84,7 @@ namespace School
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(214, 240);
+            this.label1.Location = new System.Drawing.Point(214, 237);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(196, 41);
             this.label1.TabIndex = 3;
@@ -110,7 +110,7 @@ namespace School
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(254, 427);
+            this.label2.Location = new System.Drawing.Point(254, 424);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 41);
             this.label2.TabIndex = 5;

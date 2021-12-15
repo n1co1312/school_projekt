@@ -24,13 +24,25 @@ namespace School
             if (File.Exists(path))
             {
                 File.Delete(path);
-                Form2 form2 = new Form2();
-                form2.Close();
                 Application.Restart();
             }
             else
             {
-                MessageBox.Show("Du hast noch kein Passwort", "Passwort");
+                MessageBox.Show("Du hast noch kein Passwort.", "Passwort");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string path = "gruppe.txt";
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+                Application.Restart();
+            }
+            else
+            {
+                MessageBox.Show("Du bist noch keiner Gruppe beigetreten.", "Gruppe");
             }
         }
     }
