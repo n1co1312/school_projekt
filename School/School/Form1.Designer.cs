@@ -45,11 +45,11 @@ namespace School
             this.Login.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Login.AutoSize = true;
             this.Login.BackColor = System.Drawing.Color.Transparent;
-            this.Login.Font = new System.Drawing.Font("Audiowide", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Login.Location = new System.Drawing.Point(426, 45);
             this.Login.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(231, 81);
+            this.Login.Size = new System.Drawing.Size(207, 75);
             this.Login.TabIndex = 0;
             this.Login.Text = "Login";
             // 
@@ -83,10 +83,10 @@ namespace School
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Consolas", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(214, 237);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 41);
+            this.label1.Size = new System.Drawing.Size(199, 43);
             this.label1.TabIndex = 3;
             this.label1.Text = "Passwort:";
             // 
@@ -109,10 +109,10 @@ namespace School
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(254, 424);
+            this.label2.Font = new System.Drawing.Font("Consolas", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(251, 425);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 41);
+            this.label2.Size = new System.Drawing.Size(159, 43);
             this.label2.TabIndex = 5;
             this.label2.Text = "Gruppe:";
             this.label2.Visible = false;

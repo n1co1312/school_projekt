@@ -105,10 +105,13 @@ namespace School
                     int group = Convert.ToInt32(textBox3.Text);
                     string path3 = "gruppe.txt";
                     File.WriteAllText(path3, Convert.ToString(group));
-                    string psw = textBox2.Text;
                     string path = "psw.txt";
-                    File.WriteAllText(path, psw);
-                    MessageBox.Show("Login erfolgreich", ".");
+                    if (!File.Exists(path))
+                    {
+                        string psw = textBox2.Text;
+                        File.WriteAllText(path, psw);
+                    }
+                    MessageBox.Show("Erfolgreich", "");
                     Application.Restart();
                 }
                 catch (System.FormatException)
