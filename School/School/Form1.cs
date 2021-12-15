@@ -21,6 +21,12 @@ namespace School
             {
                 textBox2.Visible = true;
             }
+            string path2 = "gruppe.txt";
+            if (!File.Exists(path2))
+            {
+                textBox3.Visible = true;
+                label2.Visible = true;
+            }
         }
 
         private void textBox2_KeyDown(object sender, KeyEventArgs e)
@@ -60,12 +66,46 @@ namespace School
                         form2.WindowState = FormWindowState.Maximized;
 
                     }
+                    else
+                    {
+                        MessageBox.Show("Passwort falsch!", "Fehler!");
+                    }
                 }
             }
             catch (System.IO.FileNotFoundException)
             {
                 MessageBox.Show("Bitte erstelle zuerst ein Passwort!", "Fehler!");
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+            settings settings1 = new settings();
+            settings1.Show();
+        }
+
+        private void textBox3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+
+                try
+                {
+                    int group = Convert.ToInt32(textBox3.Text);
+                    string path3 = "gruppe.txt";
+                    File.WriteAllText(path3, Convert.ToString(group));
+                    string psw = textBox2.Text;
+                    string path = "psw.txt";
+                    File.WriteAllText(path, psw);
+                    MessageBox.Show("Login erfolgreich", ".");
+                    Application.Restart();
+                }
+                catch (System.FormatException)
+                {
+                    MessageBox.Show("Keine Buchstaben","Error");
+                }
+            }   
         }
     }
 }
