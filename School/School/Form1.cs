@@ -68,7 +68,7 @@ namespace School
                     }
                     else
                     {
-                        MessageBox.Show("Passwort falsch!", "Fehler!");
+                        MessageBox.Show("Passwort falsch!", "Passwort");
                     }
                 }
             }
@@ -80,9 +80,19 @@ namespace School
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            string path = "psw.txt";
+            string pass = textBox1.Text;
+            string psw = File.ReadAllText(path);
 
-            settings settings1 = new settings();
-            settings1.Show();
+            if (pass == psw)
+            {
+                settings settings1 = new settings();
+                settings1.Show();
+            }
+            else
+            {
+                MessageBox.Show("Passwort falsch!", "Passwort");
+            }
         }
 
         private void textBox3_KeyDown(object sender, KeyEventArgs e)
