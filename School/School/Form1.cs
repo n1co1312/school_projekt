@@ -61,8 +61,8 @@ namespace School
                     {
                         Form2 form2 = new Form2();
                         Form1 form1 = new Form1();
-                        form2.Show();
                         form1.WindowState = FormWindowState.Minimized;
+                        form2.Show();
                         form2.WindowState = FormWindowState.Maximized;
 
                     }
@@ -80,19 +80,27 @@ namespace School
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            string path = "psw.txt";
-            string pass = textBox1.Text;
-            string psw = File.ReadAllText(path);
+            try
+            {
+                string path = "psw.txt";
+                string pass = textBox1.Text;
+                string psw = File.ReadAllText(path);
 
-            if (pass == psw)
-            {
-                settings settings1 = new settings();
-                settings1.Show();
+                if (pass == psw)
+                {
+                    settings settings1 = new settings();
+                    settings1.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Passwort falsch!", "Passwort");
+                }
             }
-            else
+            catch (System.IO.FileNotFoundException)
             {
-                MessageBox.Show("Passwort falsch!", "Passwort");
+                MessageBox.Show("Bitte erstelle zuerst ein Passwort!", "Passwort");
             }
+            
         }
 
         private void textBox3_KeyDown(object sender, KeyEventArgs e)
@@ -116,6 +124,20 @@ namespace School
                     MessageBox.Show("Keine Buchstaben","Error");
                 }
             }   
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                textBox1.PasswordChar = '\0';
+                textBox2.PasswordChar = '\0';
+            }
+            else
+            {
+                textBox1.PasswordChar = '•';
+                textBox2.PasswordChar = '•';
+            }
         }
     }
 }
