@@ -21,3 +21,16 @@ C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.cs
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.exe
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.pdb
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\bin\Debug\School.exe.config
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\bin\Debug\School.exe
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\bin\Debug\School.pdb
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.csprojAssemblyReference.cache
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Form1.resources
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Form2.resources
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Properties.Resources.resources
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.csproj.GenerateResource.cache
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.exe
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.pdb
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Checkbox.resources
+C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.settings.resources
