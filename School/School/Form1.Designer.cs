@@ -111,11 +111,7 @@ namespace School
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< Updated upstream
             this.label2.Location = new System.Drawing.Point(254, 424);
-=======
-            this.label2.Location = new System.Drawing.Point(251, 425);
->>>>>>> Stashed changes
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 41);
             this.label2.TabIndex = 5;
@@ -139,11 +135,11 @@ namespace School
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox1.Font = new System.Drawing.Font("Audiowide", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(684, 249);
+            this.checkBox1.Font = new System.Drawing.Font("Audiowide", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(672, 247);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(124, 28);
-            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Size = new System.Drawing.Size(139, 31);
+            this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "Anzeigen";
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
