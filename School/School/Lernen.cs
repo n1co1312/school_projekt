@@ -56,5 +56,11 @@ namespace School
             textBox3.Visible = true;
             label5.Visible = true;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Lernen2 lernen2 = new Lernen2();
+            lernen2.Show();
+        }
     }
 }

@@ -121,4 +121,10 @@
   <data name="settings-cogwheel-button_icon-icons.com_72559" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings-cogwheel-button_icon-icons.com_72559.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconfinder-idea-4341295_120562" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder-idea-4341295_120562.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bsp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bsp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

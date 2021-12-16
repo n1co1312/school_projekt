@@ -63,6 +63,26 @@ namespace School.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bsp {
+            get {
+                object obj = ResourceManager.GetObject("bsp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_idea_4341295_120562 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder-idea-4341295_120562", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap settings_cogwheel_button_icon_icons_com_72559 {
             get {
                 object obj = ResourceManager.GetObject("settings-cogwheel-button_icon-icons.com_72559", resourceCulture);

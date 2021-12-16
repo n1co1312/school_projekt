@@ -65,11 +65,23 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lernen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lernen.Designer.cs">
       <DependentUpon>Lernen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lernen2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lernen2.Designer.cs">
+      <DependentUpon>Lernen2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,8 +100,14 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lernen.resx">
       <DependentUpon>Lernen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lernen2.resx">
+      <DependentUpon>Lernen2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -119,6 +137,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\settings-cogwheel-button_icon-icons.com_72559.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-idea-4341295_120562.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bsp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

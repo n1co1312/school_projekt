@@ -8,7 +8,6 @@ C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\Sc
 C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
 C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.exe
 C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.pdb
-C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Form2.resources
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\bin\Debug\School.exe.config
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\bin\Debug\School.exe
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\bin\Debug\School.pdb
@@ -40,3 +39,7 @@ C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Sch
 C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Lernen.resources
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Schule.resources
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Lernen.resources
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Schule.resources
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Lernen.resources
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Info.resources
+C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Lernen2.resources
