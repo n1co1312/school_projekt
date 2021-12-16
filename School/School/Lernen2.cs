@@ -47,5 +47,13 @@ namespace School
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string lernstoff = textBox1.Text;
+            string fach = textBox2.Text;
+            string path = $"{fach}.txt";
+            File.WriteAllText(path, lernstoff);
+        }
     }
 }

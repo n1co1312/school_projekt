@@ -48,9 +48,9 @@ namespace School
             // pictureBox1
             // 
             this.pictureBox1.Image = global::School.Properties.Resources.bsp;
-            this.pictureBox1.Location = new System.Drawing.Point(278, 95);
+            this.pictureBox1.Location = new System.Drawing.Point(273, 83);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(562, 536);
+            this.pictureBox1.Size = new System.Drawing.Size(599, 551);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -59,7 +59,7 @@ namespace School
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1187, 664);
+            this.ClientSize = new System.Drawing.Size(1200, 710);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "Info";
