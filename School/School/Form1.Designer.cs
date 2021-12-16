@@ -43,14 +43,14 @@ namespace School
             // 
             // Login
             // 
-            this.Login.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Login.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Login.AutoSize = true;
             this.Login.BackColor = System.Drawing.Color.Transparent;
-            this.Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login.Location = new System.Drawing.Point(452, 48);
+            this.Login.Font = new System.Drawing.Font("Audiowide", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login.Location = new System.Drawing.Point(436, 49);
             this.Login.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(190, 73);
+            this.Login.Size = new System.Drawing.Size(231, 81);
             this.Login.TabIndex = 0;
             this.Login.Text = "Login";
             // 
@@ -84,10 +84,10 @@ namespace School
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(214, 237);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 37);
+            this.label1.Size = new System.Drawing.Size(196, 41);
             this.label1.TabIndex = 3;
             this.label1.Text = "Passwort:";
             // 
@@ -96,10 +96,10 @@ namespace School
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Audiowide", 24F);
             this.label2.Location = new System.Drawing.Point(254, 424);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 37);
+            this.label2.Size = new System.Drawing.Size(156, 41);
             this.label2.TabIndex = 5;
             this.label2.Text = "Gruppe:";
             this.label2.Visible = false;
@@ -123,10 +123,10 @@ namespace School
             this.checkBox1.AutoSize = true;
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
             this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Font = new System.Drawing.Font("Audiowide", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(697, 246);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(121, 29);
+            this.checkBox1.Size = new System.Drawing.Size(139, 31);
             this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "Anzeigen";
             this.checkBox1.UseVisualStyleBackColor = false;
