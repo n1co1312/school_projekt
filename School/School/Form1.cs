@@ -77,32 +77,6 @@ namespace School
                 MessageBox.Show("Bitte erstelle zuerst ein Passwort!", "Fehler!");
             }
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                string path = "psw.txt";
-                string pass = textBox1.Text;
-                string psw = File.ReadAllText(path);
-
-                if (pass == psw)
-                {
-                    settings settings1 = new settings();
-                    settings1.Show();
-                }
-                else
-                {
-                    MessageBox.Show("Passwort falsch!", "Passwort");
-                }
-            }
-            catch (System.IO.FileNotFoundException)
-            {
-                MessageBox.Show("Bitte erstelle zuerst ein Passwort!", "Passwort");
-            }
-            
-        }
-
         private void textBox3_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -141,6 +115,30 @@ namespace School
             {
                 textBox1.PasswordChar = '•';
                 textBox2.PasswordChar = '•';
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string path = "psw.txt";
+                string pass = textBox1.Text;
+                string psw = File.ReadAllText(path);
+
+                if (pass == psw)
+                {
+                    settings settings1 = new settings();
+                    settings1.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Passwort falsch!", "Passwort");
+                }
+            }
+            catch (System.IO.FileNotFoundException)
+            {
+                MessageBox.Show("Bitte erstelle zuerst ein Passwort!", "Passwort");
             }
         }
     }
