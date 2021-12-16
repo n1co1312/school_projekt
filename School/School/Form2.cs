@@ -11,11 +11,18 @@ using System.Windows.Forms;
 
 namespace School
 {
-    public partial class Form2 : Form
+    public partial class Schule : Form
     {
-        public Form2()
+        public Schule()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Lernen lernen = new Lernen();
+            lernen.Show();
+            lernen.WindowState = FormWindowState.Maximized;
         }
     }
 }

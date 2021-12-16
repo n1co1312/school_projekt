@@ -59,7 +59,7 @@ namespace School
                     string psw = File.ReadAllText(path);
                     if (pass == psw)
                     {
-                        Form2 form2 = new Form2();
+                        Schule form2 = new Schule();
                         Form1 form1 = new Form1();
                         form1.WindowState = FormWindowState.Minimized;
                         form2.Show();
