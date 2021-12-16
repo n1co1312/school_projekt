@@ -15,7 +15,6 @@ C:\Users\Elias\Documents\GitHub\school_projekt\School\School\bin\Debug\School.pd
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.csproj.AssemblyReference.cache
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.csproj.SuggestedBindingRedirects.cache
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Form1.resources
-C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Form2.resources
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Properties.Resources.resources
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.csproj.GenerateResource.cache
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.csproj.CoreCompileInputs.cache
@@ -39,3 +38,5 @@ C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\Sc
 C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.settings.resources
 C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Schule.resources
 C:\Users\Nico\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Lernen.resources
+C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Schule.resources
+C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Lernen.resources
