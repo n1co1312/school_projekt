@@ -33,13 +33,12 @@ namespace School
                 if (File.Exists(path))
                 {
                     label1.Visible = true;
-                    label2.Visible = true;
                     label3.Visible = false;
                     textBox2.Visible = false;
-                    button1.Visible = true;
                     button2.Visible = true;
                     pictureBox1.Visible = true;
                     textBox1.Visible = true;
+                    button1.Visible = true;
                 }
                 else
                 {
@@ -55,6 +54,12 @@ namespace School
             string path = $"{fach}.txt";
             File.WriteAllText(path, lernstoff);
             MessageBox.Show("Lernstoff erfolgreich eingetragen.", "Lernstoff");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Abfrage abfrage = new Abfrage();
+            abfrage.Show();
         }
     }
 }
