@@ -45,9 +45,10 @@ namespace School
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Audiowide", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(44, 129);
+            this.label1.Location = new System.Drawing.Point(33, 105);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(546, 62);
+            this.label1.Size = new System.Drawing.Size(435, 49);
             this.label1.TabIndex = 2;
             this.label1.Text = "Lernstoff eingeben";
             this.label1.Visible = false;
@@ -57,9 +58,10 @@ namespace School
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Audiowide", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(900, 129);
+            this.label2.Location = new System.Drawing.Point(675, 105);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(491, 62);
+            this.label2.Size = new System.Drawing.Size(391, 49);
             this.label2.TabIndex = 3;
             this.label2.Text = "Lernstoff prüfen";
             this.label2.Visible = false;
@@ -68,10 +70,11 @@ namespace School
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.Font = new System.Drawing.Font("Audiowide", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(27, 251);
+            this.textBox1.Location = new System.Drawing.Point(20, 204);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(587, 397);
+            this.textBox1.Size = new System.Drawing.Size(441, 323);
             this.textBox1.TabIndex = 4;
             this.textBox1.Visible = false;
             // 
@@ -80,9 +83,10 @@ namespace School
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.Cyan;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(887, 251);
+            this.button1.Location = new System.Drawing.Point(665, 204);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(520, 397);
+            this.button1.Size = new System.Drawing.Size(390, 323);
             this.button1.TabIndex = 6;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Visible = false;
@@ -93,9 +97,10 @@ namespace School
             this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Audiowide", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(482, 569);
+            this.button2.Location = new System.Drawing.Point(362, 462);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(132, 79);
+            this.button2.Size = new System.Drawing.Size(99, 64);
             this.button2.TabIndex = 7;
             this.button2.Text = "Betsädigen";
             this.button2.UseVisualStyleBackColor = false;
@@ -107,9 +112,10 @@ namespace School
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::School.Properties.Resources.iconfinder_idea_4341295_120562;
-            this.pictureBox1.Location = new System.Drawing.Point(1362, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(1022, 10);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(101, 88);
+            this.pictureBox1.Size = new System.Drawing.Size(76, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -121,9 +127,10 @@ namespace School
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Audiowide", 28.2F);
-            this.label3.Location = new System.Drawing.Point(196, 331);
+            this.label3.Location = new System.Drawing.Point(147, 269);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(463, 62);
+            this.label3.Size = new System.Drawing.Size(368, 49);
             this.label3.TabIndex = 8;
             this.label3.Text = "Fach auswählen:";
             // 
@@ -131,19 +138,19 @@ namespace School
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox2.Font = new System.Drawing.Font("Audiowide", 25F);
-            this.textBox2.Location = new System.Drawing.Point(676, 331);
-            this.textBox2.Multiline = true;
+            this.textBox2.Location = new System.Drawing.Point(507, 269);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(315, 62);
+            this.textBox2.Size = new System.Drawing.Size(237, 50);
             this.textBox2.TabIndex = 9;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // Lernen2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1475, 805);
+            this.ClientSize = new System.Drawing.Size(1106, 654);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
@@ -152,6 +159,7 @@ namespace School
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Lernen2";
             this.Text = "Lernstoff";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

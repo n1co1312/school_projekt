@@ -54,6 +54,7 @@ namespace School
             string fach = textBox2.Text;
             string path = $"{fach}.txt";
             File.WriteAllText(path, lernstoff);
+            MessageBox.Show("Lernstoff erfolgreich eingetragen.", "Lernstoff");
         }
     }
 }
