@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +20,11 @@ namespace School
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Todo prüfalgorithmus
+            string aktuell = File.ReadAllText("aktuelles_Fach.txt");
+            string path = $"{aktuell}.txt";
+            string inhalt = File.ReadAllText(path);
+            //hier muss man die Fragen von dem ausgewählten Fach in ein Lable schreiben
+            //dann muss die Antwort des Benutzers mit "contain" überprüft werden
         }
     }
 }

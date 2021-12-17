@@ -63,6 +63,7 @@ namespace School
         {
             Lernen2 lernen2 = new Lernen2();
             lernen2.Show();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

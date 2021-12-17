@@ -39,6 +39,9 @@ namespace School
                     pictureBox1.Visible = true;
                     textBox1.Visible = true;
                     button1.Visible = true;
+                    string path2 = "aktuelles_Fach.txt";
+                    string inhalt = fach;
+                    File.WriteAllText(path2, inhalt);
                 }
                 else
                 {

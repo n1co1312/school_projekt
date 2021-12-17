@@ -47,9 +47,10 @@ namespace School
             this.Login.AutoSize = true;
             this.Login.BackColor = System.Drawing.Color.Transparent;
             this.Login.Font = new System.Drawing.Font("Audiowide", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login.Location = new System.Drawing.Point(576, 61);
+            this.Login.Location = new System.Drawing.Point(432, 50);
+            this.Login.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(288, 102);
+            this.Login.Size = new System.Drawing.Size(231, 81);
             this.Login.TabIndex = 0;
             this.Login.Text = "Login";
             // 
@@ -57,11 +58,11 @@ namespace School
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(553, 292);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Location = new System.Drawing.Point(415, 237);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '•';
-            this.textBox1.Size = new System.Drawing.Size(335, 53);
+            this.textBox1.Size = new System.Drawing.Size(252, 44);
             this.textBox1.TabIndex = 1;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
@@ -69,11 +70,11 @@ namespace School
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.textBox2.Location = new System.Drawing.Point(553, 407);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox2.Location = new System.Drawing.Point(415, 331);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '•';
-            this.textBox2.Size = new System.Drawing.Size(335, 53);
+            this.textBox2.Size = new System.Drawing.Size(252, 44);
             this.textBox2.TabIndex = 2;
             this.textBox2.Visible = false;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
@@ -84,10 +85,9 @@ namespace School
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(285, 292);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(214, 237);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 51);
+            this.label1.Size = new System.Drawing.Size(196, 41);
             this.label1.TabIndex = 3;
             this.label1.Text = "Passwort:";
             // 
@@ -97,10 +97,9 @@ namespace School
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Audiowide", 24F);
-            this.label2.Location = new System.Drawing.Point(339, 522);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(254, 424);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 51);
+            this.label2.Size = new System.Drawing.Size(156, 41);
             this.label2.TabIndex = 5;
             this.label2.Text = "Gruppe:";
             this.label2.Visible = false;
@@ -109,11 +108,11 @@ namespace School
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.textBox3.Location = new System.Drawing.Point(553, 522);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox3.Location = new System.Drawing.Point(415, 424);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.MaxLength = 1;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(335, 53);
+            this.textBox3.Size = new System.Drawing.Size(252, 44);
             this.textBox3.TabIndex = 6;
             this.textBox3.Visible = false;
             this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox3_KeyDown);
@@ -125,10 +124,9 @@ namespace School
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
             this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox1.Font = new System.Drawing.Font("Audiowide", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(929, 303);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1.Location = new System.Drawing.Point(697, 246);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(176, 39);
+            this.checkBox1.Size = new System.Drawing.Size(139, 31);
             this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "Anzeigen";
             this.checkBox1.UseVisualStyleBackColor = false;
@@ -140,10 +138,9 @@ namespace School
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::School.Properties.Resources.settings_cogwheel_button_icon_icons_com_72559;
-            this.pictureBox2.Location = new System.Drawing.Point(1236, 15);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(927, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(119, 85);
+            this.pictureBox2.Size = new System.Drawing.Size(89, 69);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
@@ -151,11 +148,11 @@ namespace School
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1371, 740);
+            this.ClientSize = new System.Drawing.Size(1028, 601);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.textBox3);
@@ -165,7 +162,7 @@ namespace School
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Login);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

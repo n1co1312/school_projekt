@@ -15,6 +15,7 @@ namespace School
     {
         public Form1()
         {
+            File.Delete("aktuelles_Fach.txt");
             InitializeComponent();
             string path = "psw.txt";
             if (!File.Exists(path)) 
