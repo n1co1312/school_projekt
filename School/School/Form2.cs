@@ -22,7 +22,6 @@ namespace School
         {
             Lernen lernen = new Lernen();
             lernen.Show();
-            lernen.WindowState = FormWindowState.Maximized;
         }
     }
 }

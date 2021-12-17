@@ -63,7 +63,6 @@ namespace School
                         Form1 form1 = new Form1();
                         form1.WindowState = FormWindowState.Minimized;
                         form2.Show();
-                        form2.WindowState = FormWindowState.Maximized;
 
                     }
                     else

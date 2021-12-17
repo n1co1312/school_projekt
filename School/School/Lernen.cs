@@ -18,12 +18,6 @@ namespace School
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            textBox1.Visible = true;
-            label4.Visible = true;   
-        }
-
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
 
@@ -45,9 +39,17 @@ namespace School
             {
                 string fach = textBox3.Text;
                 string path = $"{fach}.txt";
-                File.Delete(path);
-                textBox3.Visible = false;
-                label5.Visible = false;
+                if (File.Exists(path))
+                {
+                    File.Delete(path);
+                    textBox3.Visible = false;
+                    label5.Visible = false;
+                    MessageBox.Show("Fach " + fach + " erfolgreich gelöscht.", "Fach");
+                }
+                else
+                {
+                    MessageBox.Show("Fach existiert nicht.", "Error");
+                }
             }
         }
 
@@ -61,6 +63,12 @@ namespace School
         {
             Lernen2 lernen2 = new Lernen2();
             lernen2.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.Visible = true;
+            label4.Visible = true;
         }
     }
 }

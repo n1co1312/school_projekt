@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abfrage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abfrage.Designer.cs">
+      <DependentUpon>Abfrage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Checkbox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     <Compile Include="settings.Designer.cs">
       <DependentUpon>settings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Abfrage.resx">
+      <DependentUpon>Abfrage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Checkbox.resx">
       <DependentUpon>Checkbox.cs</DependentUpon>
     </EmbeddedResource>
