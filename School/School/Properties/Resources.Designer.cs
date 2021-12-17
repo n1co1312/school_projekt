@@ -83,6 +83,16 @@ namespace School.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot__14_ {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot (14)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap settings_cogwheel_button_icon_icons_com_72559 {
             get {
                 object obj = ResourceManager.GetObject("settings-cogwheel-button_icon-icons.com_72559", resourceCulture);

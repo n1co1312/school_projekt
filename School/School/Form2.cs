@@ -23,5 +23,19 @@ namespace School
             Lernen lernen = new Lernen();
             lernen.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string inhalt = File.ReadAllText("gruppe.txt");
+            if (inhalt == "2")
+            {
+                Stundenplan stundenplan = new Stundenplan();
+                stundenplan.Show();
+            }
+            else
+            {
+                MessageBox.Show("Gruppe wurde nicht gefunden", "Error");
+            }
+        }
     }
 }

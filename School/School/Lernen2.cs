@@ -32,6 +32,15 @@ namespace School
                 string path = $"{fach}.txt";
                 if (File.Exists(path))
                 {
+                    string x = File.ReadAllText(path);
+                    if (x != "")
+                    {
+                        string path2_ = "aktuelles_Fach.txt";
+                        string inhalt_ = fach;
+                        File.WriteAllText(path2_, inhalt_);
+                        Abfrage abfrage = new Abfrage();
+                        abfrage.Show();
+                    }
                     label1.Visible = true;
                     label3.Visible = false;
                     textBox2.Visible = false;

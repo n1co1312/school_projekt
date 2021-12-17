@@ -97,6 +97,12 @@
     <Compile Include="settings.Designer.cs">
       <DependentUpon>settings.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stundenplan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stundenplan.Designer.cs">
+      <DependentUpon>Stundenplan.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Abfrage.resx">
       <DependentUpon>Abfrage.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +137,9 @@
     <EmbeddedResource Include="settings.resx">
       <DependentUpon>settings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Stundenplan.resx">
+      <DependentUpon>Stundenplan.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -152,6 +161,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bsp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2814%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
