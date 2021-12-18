@@ -37,19 +37,21 @@ namespace School
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::School.Properties.Resources.Screenshot__14_;
-            this.pictureBox1.Location = new System.Drawing.Point(33, 67);
+            this.pictureBox1.Location = new System.Drawing.Point(9, -85);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1472, 852);
+            this.pictureBox1.Size = new System.Drawing.Size(1104, 692);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // Stundenplan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1517, 944);
+            this.ClientSize = new System.Drawing.Size(1124, 506);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Stundenplan";
             this.Text = "Stundenplan";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

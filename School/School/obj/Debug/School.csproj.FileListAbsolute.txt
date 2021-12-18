@@ -48,3 +48,4 @@ C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Le
 C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Abfrage.resources
 C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Abfrage.resources
 C:\Users\nicol\OneDrive\Desktop\SCHOOL\school_projekt\School\School\obj\Debug\School.Stundenplan.resources
+C:\Users\Elias\Documents\GitHub\school_projekt\School\School\obj\Debug\School.Stundenplan.resources

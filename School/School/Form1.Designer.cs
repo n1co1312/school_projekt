@@ -47,7 +47,7 @@ namespace School
             this.Login.AutoSize = true;
             this.Login.BackColor = System.Drawing.Color.Transparent;
             this.Login.Font = new System.Drawing.Font("Audiowide", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login.Location = new System.Drawing.Point(432, 50);
+            this.Login.Location = new System.Drawing.Point(401, 47);
             this.Login.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(231, 81);
@@ -58,8 +58,8 @@ namespace School
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(415, 237);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(393, 233);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '•';
             this.textBox1.Size = new System.Drawing.Size(252, 44);
@@ -70,8 +70,8 @@ namespace School
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.textBox2.Location = new System.Drawing.Point(415, 331);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Location = new System.Drawing.Point(393, 328);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '•';
             this.textBox2.Size = new System.Drawing.Size(252, 44);
@@ -85,7 +85,7 @@ namespace School
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(214, 237);
+            this.label1.Location = new System.Drawing.Point(192, 233);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(196, 41);
             this.label1.TabIndex = 3;
@@ -97,7 +97,7 @@ namespace School
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Audiowide", 24F);
-            this.label2.Location = new System.Drawing.Point(254, 424);
+            this.label2.Location = new System.Drawing.Point(232, 424);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 41);
             this.label2.TabIndex = 5;
@@ -108,8 +108,8 @@ namespace School
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.textBox3.Location = new System.Drawing.Point(415, 424);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Location = new System.Drawing.Point(393, 424);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.MaxLength = 1;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(252, 44);
@@ -124,7 +124,7 @@ namespace School
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
             this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox1.Font = new System.Drawing.Font("Audiowide", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(697, 246);
+            this.checkBox1.Location = new System.Drawing.Point(650, 246);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(139, 31);
             this.checkBox1.TabIndex = 8;
@@ -162,7 +162,7 @@ namespace School
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Login);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
