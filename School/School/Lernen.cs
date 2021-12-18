@@ -70,6 +70,7 @@ namespace School
         {
             Lernen2 lernen2 = new Lernen2();
             lernen2.Show();
+            File.WriteAllText("fragen.txt", "0");
             Close();
         }
 

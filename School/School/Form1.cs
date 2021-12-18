@@ -15,6 +15,7 @@ namespace School
     {
         public Form1()
         {
+            File.WriteAllText("anzahl.txt", "0");
             File.Delete("aktuelles_Fach.txt");
             InitializeComponent();
             string path = "psw.txt";

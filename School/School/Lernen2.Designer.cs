@@ -121,7 +121,7 @@ namespace School
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Audiowide", 10.25F);
             this.button1.Location = new System.Drawing.Point(704, 681);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 64);
             this.button1.TabIndex = 10;

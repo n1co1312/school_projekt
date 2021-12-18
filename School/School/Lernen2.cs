@@ -65,6 +65,9 @@ namespace School
             string path = $"{fach}.txt";
             File.WriteAllText(path, lernstoff);
             MessageBox.Show("Lernstoff erfolgreich eingetragen.", "Lernstoff");
+            var lineCount = File.ReadLines(path).Count();
+            string lines = Convert.ToString(lineCount);
+            File.WriteAllText("lines.txt", lines);
         }
 
         private void button1_Click(object sender, EventArgs e)
