@@ -25,11 +25,18 @@ namespace School
             {
                 string fach = textBox1.Text;
                 string path = $"{fach}.txt";
-                string nothing = "";
-                File.WriteAllText(path, nothing);
-                textBox1.Visible = false;
-                label4.Visible = false;
-
+                if (!File.Exists(path))
+                {
+                    string nothing = "";
+                    File.WriteAllText(path, nothing);
+                    textBox1.Visible = false;
+                    label4.Visible = false;
+                    MessageBox.Show("Fach " + fach + " erfolgreich erstellt.", "Fach");
+                }
+                else
+                {
+                    MessageBox.Show("Fach existiert bereits!", "Error");
+                }
             }
         }
 

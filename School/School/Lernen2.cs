@@ -38,8 +38,6 @@ namespace School
                         string path2_ = "aktuelles_Fach.txt";
                         string inhalt_ = fach;
                         File.WriteAllText(path2_, inhalt_);
-                        Abfrage abfrage = new Abfrage();
-                        abfrage.Show();
                     }
                     label1.Visible = true;
                     label3.Visible = false;
@@ -48,6 +46,7 @@ namespace School
                     pictureBox1.Visible = true;
                     textBox1.Visible = true;
                     button1.Visible = true;
+                    textBox1.Text = x;
                     string path2 = "aktuelles_Fach.txt";
                     string inhalt = fach;
                     File.WriteAllText(path2, inhalt);
