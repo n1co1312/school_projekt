@@ -37,5 +37,10 @@ namespace School
                 MessageBox.Show("Gruppe wurde nicht gefunden", "Error");
             }
         }
+
+        private void Schule_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
