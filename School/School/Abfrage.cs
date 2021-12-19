@@ -35,12 +35,14 @@ namespace School
             string inhalt = File.ReadAllText(path);
             string frage1 = File.ReadLines(path).Skip(0).Take(1).First();
             string antwort1 = File.ReadLines(path).Skip(1).Take(1).First();
+
             if (antwort1.Contains(textBox1.Text) == true)
             {
                 MessageBox.Show("Richtig", "Lösung");
                 string frage = File.ReadLines(path).Skip(0).Take(1).First();
                 string antwort = File.ReadLines(path).Skip(1).Take(1).First();
                 var file = new List<string>(System.IO.File.ReadAllLines(path));
+
                 try
                 {
                     string richtig_path = "anzahl.txt";
@@ -62,18 +64,17 @@ namespace School
                     string richtig = File.ReadAllText("anzahl.txt");
                     string fragen_str = File.ReadAllText("fragen.txt");
                     MessageBox.Show($"Sie haben {richtig} von {fragen_str} richtig", "Ergebnis");
-                    Abfrage abfrage = new Abfrage();
-                    abfrage.Close();
-                    abfrage.Show();
-
+                    Abfrage ergebnis = new Abfrage();
+                    ergebnis.Close();
                 }
 
             }
             else
             {
-                MessageBox.Show("Flasch", "Lösung");
+                MessageBox.Show("Falsch", "Lösung");
+                Abfrage falsch = new Abfrage();
+                falsch.Close();
                 Abfrage abfrage = new Abfrage();
-                abfrage.Close();
                 abfrage.Show();
             }
         }
